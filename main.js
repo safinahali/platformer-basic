@@ -3,7 +3,7 @@
 var mainState = {  
     preload: function() {  
         // Here we preload the assets
-        game.load.image('player', 'assets/player.png');
+        game.load.image('player', 'assets/ghost.png');
         game.load.image('wall', 'assets/wall.png');
         game.load.image('coin', 'assets/coin.png');
         game.load.image('enemy', 'assets/enemy.png');
@@ -13,7 +13,7 @@ var mainState = {
         // Here we create the game
 
         // Set the background color to blue
-        game.stage.backgroundColor = '#3598db';
+        game.stage.backgroundColor = '#6EDCFF';
 
         // Start the Arcade physics system (for movements and collisions)
         game.physics.startSystem(Phaser.Physics.ARCADE);
